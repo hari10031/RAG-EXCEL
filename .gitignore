@@ -1,0 +1,83 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+.venv/
+.conda/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# ML / Data Science
+# =========================
+data/
+datasets/
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.onnx
+*.model
+*.weights
+
+# =========================
+# Logs & Outputs
+# =========================
+logs/
+*.log
+outputs/
+results/
+
+# =========================
+# Experiment Tracking
+# =========================
+mlruns/
+wandb/
+lightning_logs/
+tensorboard/
+tb_logs/
+
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+secrets/
+config/local.yaml
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/
+.idea/
+.spyderproject
+.spyderworkspace
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build & Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+myenv/
+
+chroma_db/
